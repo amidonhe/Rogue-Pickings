@@ -1,0 +1,153 @@
+/***** BASE STYLES *****/
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body p {
+    font-weight: 100;
+}
+
+
+/***** GRID *****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    overflow: auto;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 370px;
+}
+
+
+/********** HEADER **********/
+header h1{
+    font-size: 30px;
+    padding-bottom: 17px;
+    padding-top: 34px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+/*** NAV ***/
+nav {
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*** IMG ***/
+img {
+    border-bottom: #77a466 solid 3px;
+    border-top: #77a466 solid 3px;
+    float: left;
+    height: auto;
+}
+
+
+/********** TOP SECTION **********/
+
+/*** ABOUT ***/
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 8px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+
+/********** BOTTOM SECTION **********/
+#content {
+    font-size: 16px;
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+    margin: 10px;
+}
+
+#content h3 {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 18px;
+    
+}
+
+/*** SPECIALS ***/
+#menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#menu ul li {
+    color: #77a466;
+    font-weight: 100;
+    line-height: 18px;
+}
+
+/*** REVIEWS ***/
+#reviews {
+    padding: 0 30px 0 30px;
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+    
+}
+
+#reviews p {
+    line-height: 21px;
+    padding-bottom: 10px;
+}
+
+/*** LOCATIONS ***/
+#locations {
+    padding-left: 25px;
+}
+
+#locations p {
+    line-height: 24px;
+}
+
+
+/********** FOOTER **********/
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+footer h2 span {
+    color: #77a466;
+    font-family:'Galada', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+}
